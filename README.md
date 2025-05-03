@@ -1,36 +1,32 @@
-# Fake Instagram Login
+# Simple PHP Login Form (Educational)
 
-## Overview
+This project is a simple PHP-based login form used for educational purposes.  
+It demonstrates how to capture user input (username and password) and store it locally for practice with handling POST requests in PHP.
 
-**Fake Instagram Login** is a project designed to simulate an Instagram login page for educational purposes. It raises awareness about phishing attacks and online security. This project is for learning and ethical testing only.
+> ❗ This project is **not connected to any external service** (e.g., Instagram, Facebook, etc.) and is **not intended for malicious or phishing activities**.
 
-![image](https://github.com/user-attachments/assets/a61550eb-cbcd-4ee5-890c-31b2b99602f4)
+## Features
 
----
+- HTML login form
+- POST method handling in PHP
+- Storing submitted credentials in a `.txt` file
+- Basic form validation (check if fields are empty)
 
-## ⚠️ **Warning**
+## Installation
 
-This project is for educational use only. **Do not use it for malicious activities**. The goal is to understand and combat phishing attacks.
+1. Clone the repository or download the ZIP.
+2. Copy the project to your local PHP server (e.g., `htdocs` if using XAMPP).
+3. Run the project in your browser:
 
----
 
-## 🚀 **Features**
-- Mimics Instagram's login page.
-- Aims to raise awareness about phishing risks.
-- Useful for ethical hackers and learners.
+## Usage
 
----
+1. Enter a username and password.
+2. Click "Login".
+3. The data will be saved locally in a file (e.g., `output.txt`).
 
-## 💡 **Usage**
-- Use this project to learn about web security and phishing vulnerabilities.
-- Understand how fake login pages are created and how to spot them.
+> ⚠️ Note: This project is meant **only for learning PHP basics**. Do not deploy or use it for real user data or on public servers.
 
----
+## License
 
-## 🔒 **Disclaimer**
-This project is for educational purposes only. The creator is not responsible for misuse. Please use it responsibly.
-
----
-
-## 📣 **Contributing**
-Feel free to open issues or submit pull requests for improvements.
+This project is licensed under the MIT License.
